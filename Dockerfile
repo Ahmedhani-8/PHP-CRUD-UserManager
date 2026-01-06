@@ -1,4 +1,4 @@
-FROM php:8.1-apache
+FROM php:8.2-apache
 
 # تثبيت امتداد mysqli و pdo_mysql
 RUN docker-php-ext-install mysqli pdo_mysql
