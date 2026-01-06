@@ -5,7 +5,7 @@ $password   = "";
 $dbname     = "php-crud";
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect("localhost", "root", "root", "php-crud");
 
 // Check connection
 if (!$conn) {
