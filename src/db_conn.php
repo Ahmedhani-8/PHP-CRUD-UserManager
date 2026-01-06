@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost"; // Back4app نفس الحاوية
+$servername = "localhost";
 $username   = "root";
-$password   = "";          // فارغ للـ container
+$password   = "";
 $dbname     = "php-crud";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
