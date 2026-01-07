@@ -1,11 +1,4 @@
-<?php
-$servername = "localhost";  // لـ Back4app container
-$username = "root";
-$password = "";
+$servername = "your-app.b4a.io";  // من Parse Dashboard > Database Settings
+$username = "your-db-user";
+$password = "your-db-pass";
 $dbname = "php-crud";
-
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-?>
