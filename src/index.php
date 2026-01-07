@@ -1,10 +1,6 @@
 <?php
 include "db_conn.php";
 ?>
-<?php
-header('Location: src/index.php');
-exit;
-?>
 
 
 <!DOCTYPE html>
